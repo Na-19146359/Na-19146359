@@ -55,3 +55,4 @@ model.add(Dense(4, activation='sigmoid'))
 opt=SGD(learning_rate=0.01,momentum=0.9)
 model.compile(loss='binary_crossentropy',optimizer=opt, metrics=['accuracy'])
 history = model.fit(x_train,y_train,epochs = 100)
+Link Drive: https://drive.google.com/drive/folders/1ASip8K4YmAID4-RP4bTJ28FTVdqSpons
